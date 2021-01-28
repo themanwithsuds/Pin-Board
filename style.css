@@ -5,24 +5,24 @@ html {
 body {
   width: 80rem;
   margin: 0 auto;
-  background-color: #f4b0b0;
+  background-color: #03b1fc;
 }
 
 h1 {
   font-size: 4rem;
   text-align: center;
   font-family: "Passion One", cursive;
-  color: #fc47bb;
-  text-shadow: 0 0 5px #fc47bb;
+  color: #1cd104;
+  text-shadow: 0 0 5px #fffff; 
 }
 
 .searchContainer {
   margin: 0 auto;
-  text-align: center;
+  text-align: center; 
 }
 
 .searchLabel {
-  font-size: 1.2rem;
+  font-size: 1.2rem; 
   font-family: "Montserrat", sans-serif;
   margin: 0 0.2rem;
 }
@@ -61,7 +61,7 @@ img {
 }
 
 .card {
-  background-color: #f7c5c5;
+  background-color: #c5f7d2;
   margin: 0.5rem;
   max-width: 30rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -73,7 +73,7 @@ img {
   justify-content: center;
 }
 .tagButton {
-  text-shadow: 0 0 5px #fc47bb;
+  text-shadow: 0 0 5px #0328ab;
   font-family: "Montserrat", sans-serif;
   font-size: medium;
   margin: 0.5rem;
