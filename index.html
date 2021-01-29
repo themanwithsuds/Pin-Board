@@ -8,28 +8,28 @@
   <meta name="viewport" content="width=device-width" />
   <title>My Pinboard for minecraft build ideas</title> 
   <link rel="stylesheet" href="style.css" /> 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Passion+One:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Passion+One:wght@700&display=swap" rel="stylesheet"/>
+  <script type"text/javascript" src="script.js"></script> 
   </head> 
 
 
   <body> 
-    <h1 class"header">minecraft builds</h1>
-    <div class"searchContainer"> 
-      <label class"searchLabel">search</label>
-      <input class"searchInput" /> 
-      <p class="searchResult"></p> 
-      <button class="newCardButton">Add a card</button>
+    <h1 class="header">minecraft builds</h1>
+    <div class="searchContainer">
+  <label class="searchLabel">search</label>
+  <input
+    type="text"
+    id="searchInput"
+    class="searchInput"
+    oninput="filterTags()"
+  />
+  <p id="searchResult" class="searchResult"></p>
+  <button id="newCardButton" class="newCardButton">Add a card</button>
+</div>
 
-    </div>
 
-    <div class="card"
-    <img /> 
-    <div class=TagContainer 
-    <button class="tagButton">TagButton</button> 
-    </div>
-  </div>
-</div>   
+    <div class="cardContainer" id="cardContainer"></div> 
 
 </body>
 
